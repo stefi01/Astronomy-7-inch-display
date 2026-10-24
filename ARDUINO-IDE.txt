@@ -1,0 +1,40 @@
+Arduino IDE settings for Astronomy Desk
+Same Tools rows as the 7 inch weather desk. The 1.0 file ota/astro_7in.bin was built with these rows.
+
+Arduino IDE 1.8.18
+ESP32 board package 3.3.12
+
+Board: ESP32S3 Dev Module
+USB CDC On Boot: Disabled
+CPU Frequency: 240MHz (WiFi)
+Core Debug Level: None
+USB DFU On Boot: Disabled
+Erase All Flash Before Sketch Upload: Disabled
+Events Run On: Core 1
+Flash Mode: QIO 80MHz
+Flash Size: 8MB (64Mb)
+JTAG Adapter: Disabled
+Arduino Runs On: Core 1
+USB Firmware MSC On Boot: Disabled
+Partition Scheme: 8M with spiffs (3MB APP/1.5MB SPIFFS)
+PSRAM: OPI PSRAM
+Upload Mode: UART0 / Hardware CDC
+Upload Speed: 921600
+USB Mode: Hardware CDC and JTAG
+Zigbee Mode: Disabled
+
+Libraries:
+GFX Library for Arduino 1.6.8
+TJpg_Decoder 1.1.0
+
+ArduinoJson is not used. Do not add it for this sketch.
+
+Wi-Fi, HTTP, Preferences, and Wire come with the ESP32 board package.
+
+Open the sketch astro_desk\astro_desk.ino. The star list, asteroid orbits, satellite paths, and world picture are in that same folder.
+
+Prefs name is astro7. The first empty boot may copy Wi-Fi and place from ultwx, then skywx. It only reads those. Factory reset clears astro7 only, and it does not copy the other desk again.
+
+About checks GitHub. Repo https://github.com/stefi01/Astronomy-7-inch-display
+CHECK reads ota/version.txt. INSTALL reads ota/astro_7in.bin.
+The partition is the same 8M with spiffs row as the 7 inch weather desk. If the board has no second slot, About says no update slot.

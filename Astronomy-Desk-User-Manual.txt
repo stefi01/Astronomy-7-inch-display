@@ -1,0 +1,75 @@
+Astronomy Desk
+7 inch desk display
+
+This desk shows a large clock and the date for the town you pick, a weather card, the moon, a tonight list, a star map, the planets, comets and asteroids, meteor showers, the ISS and Tiangong, space telescopes, space weather, and the next rocket launches. Search on More opens a fact page, and a photograph is shown with those facts when this desk has one for that name. Keep it plugged in, and give it your home Wi-Fi.
+
+It is a desk display. A satellite pass is a time to look up. It is not a warning. Distances are approximate.
+
+The board
+This file is for the 7 inch Waveshare ESP32-S3 touch screen, 800 by 480. Do not flash it onto the 4 inch screen or the 4.3 inch screen.
+
+About checks GitHub for a newer copy. CHECK reads ota/version.txt. INSTALL reads ota/astro_7in.bin from stefi01/Astronomy-7-inch-display. The first copy still goes on over USB. Leave it plugged in while an update installs.
+
+First start
+If Ultimate Weather or Sky Weather was already set up on this screen, Astronomy Desk copies that Wi-Fi name, password, and place on the first boot. It does not change those desks.
+
+If nothing was copied, the Wi-Fi page opens. Type the network or tap one from the scan, type the password, and tap SAVE. The screen restarts and joins.
+
+Then tap the place name and type a US city or ZIP. Tap SEARCH, then tap the match. The clock and the date follow that place.
+
+Home
+The top line is your place. Tap it to change the place. WIFI is at the top right.
+
+The large clock has no seconds. The date is under it.
+
+The left card is the moon, the phase in plain words, the percent lit, and the distance in miles. Tap it for the moon page. The right card is the temperature, the sky word, and sun rise and sun set. F or C is in Setup.
+
+Under the cards is the aurora number, Kp, with a word such as quiet, unsettled, or active, and the solar wind speed when it has arrived. Tap that line for space weather. The ISS line is the next time it is high enough to look for. Tap that line for the ISS page. The meteor shower line names tonight's shower and a clock time, or the next one. Tap it for the meteor shower list.
+
+The bottom row is SKY, PLANETS, MOON, and MORE.
+
+Star map
+North is up. The rim is the horizon. Only the constellations above the horizon are drawn, with the stick-figure lines used on ordinary star maps. Faint stars that are not part of those figures are left off. The sun, the moon, the planets, comets, asteroids, clusters, and galaxies are drawn when they are up. Satellites are not. They move too fast.
+
+Tap a name. The bottom lines give the compass direction, how many degrees up or down, rise and set, and the distance when this desk knows one. Bright stars of interest also show how many suns across they are. Clusters and galaxies show about how many stars they hold, and how far away they are.
+
+TONIGHT on the star map, and on More, is the list of what is in the sky. Each row says what the object is, such as star, planet, moon, cluster, galaxy, comet, or asteroid, plus the compass direction, degrees, rise and set, the distance, and the size or speed when this desk knows one. STARS and PLANETS switch that list. The list refreshes about once a minute.
+
+The map redraws about once a minute, so the planets and the stars follow the night. Planets move at a different rate from the stars, and both are stepped from the clock on that same minute. Downloads pause while it is open, so the lines stay clean. Satellites are not on this map. They move too fast. The ISS and Tiangong have their own page.
+
+Planets
+Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and Neptune. The sun is not on this page. Each row says which way to look, up or set, how many degrees, distance from Earth, and about how fast that planet moves through space. Tap a row for the length of its day, how long it takes to orbit the sun, day and night temperatures, the size, what it is made of, the air, and the main moons. Mercury and Venus are an iron core and a basalt crust. Mars is an iron core, a basalt crust, and water ice. Jupiter and Saturn are hydrogen and helium. Uranus and Neptune are hydrogen, helium, water, methane, and ammonia. Io is sulfur and silicate. Europa, Ganymede, Callisto, and Titan are water ice and silicate. Phobos and Deimos are unknown. Pallas is unknown. Ceres is water ice, clay, and salts. Vesta is a basalt crust and an iron core. Juno is olivine and pyroxene. Comets are water ice and dust. Each row shows the material, the speed, the day length in hours, the year length in days, and the moons by count and name. The fact page also shows a photograph when this desk has one. MORE at the top right opens the More page. Back returns to the planet list.
+
+Moon
+The phase drawing, the plain name, the percent lit, the next full moon, and the next time there is no visible moon. It also shows the compass direction, degrees, moon rise and moon set, and distance from Earth. The bright highlands are anorthosite. The dark plains are basalt. It has a small iron core. It is about 2,160 miles across. The words are new, crescent, first quarter, mostly full, full, and last quarter. New means no moon to see.
+
+More
+TONIGHT is the sky list. The heading of each row is the name and the diameter, such as diameter about 12 times as wide as the sun, or about 2,160 miles across. If a star's diameter is not known, the heading says diameter unknown. The next line is distance from Earth. SPACE WEATHER is the solar wind, the latest flare, storm chances, and the Kp forecast. The yellow bars are Kp, the aurora storm number. 0 is quiet and 9 is extreme. About 4 is unsettled, 5 is active, and 7 is severe. The page also shows where the sun is, and a world picture. The yellow lines across the map are the edge of the northern lights and the southern lights for the live Kp. Inside a line, toward the pole, is where the aurora can show. The page says whether to look north or south, and whether this place is inside that edge. Downloads pause while that map is open.
+
+ISS opens the world picture for the ISS and Tiangong. Hubble is not on this page. The night side is dimmed. Your place is the pink dot. Under the map is the next time to look, about how fast the station is moving, and ISS onboard crew followed by the number of people on the ISS. That number is not the Tiangong crew. Tap the ISS line for the names and the country when the daily list includes it. A short text refresh keeps the paths current. That refresh waits until you leave this page.
+
+TELESCOPES lists Hubble, James Webb, Chandra, Euclid, and TESS. A row shows the mirror, distance from Earth, the launch rocket, and the last service. Tap a row for each service visit. Hubble's last service was May 2009 by space shuttle Atlantis. Earlier visits were space shuttles Endeavour, Discovery, and Columbia. Tap a row for what each visit was for. Webb, Euclid, and the others say never serviced after launch. Hubble's height is live. The fact page also shows a photograph when this desk has one. MORE at the top right opens the More page. Back returns to the telescope list.
+
+ASTEROIDS lists Ceres, Vesta, Pallas, and Juno. Each row says distance from Earth, the word speed before the speed around the sun, and an approximate magnitude. Under the rows, the page lists when each meteor shower peaks.
+
+COMETS lists Encke and Hartley-IRAS. Each row says distance from Earth, the orbit length, the nucleus size when it is known, and that it is water ice and dust. Both need a telescope. The page does not tell you to look at the sun or toward the sun. When a comet is up, the row names the constellation it is near. A comet's speed changes along the orbit, so it is not given as one number.
+
+METEOR SHOWERS lists eight showers. Each row says peaks, then the date, how many an hour, the comet or asteroid the dust came from, and a clock time for the dark window at your place. Tap a row for the body's size when it is known, the speed, and the direction. There is no fixed count of pieces.
+
+LAUNCHES shows up to four upcoming launches. The feet on a card are the vehicle height, the rocket, not the satellite. The card also gives the filled weight of that rocket, what is being launched, and the payload weight and size when those are known. The card says planned orbit height unknown, because the live list does not include that height. A Starlink flight says Starlink, owned by SpaceX. The weight shown is for one satellite, about 1,760 lb. The size of that satellite is unknown. A crew ship on a Falcon 9 is about 27 feet tall and 13 feet across, and its weight changes with the cargo. If the payload weight or size is not known, the card says so. Tap a card for the stage fuel, the speed, and the second stage.
+
+SEARCH is on this page. Type a name. The desk lists up to four matches. Type more of the name when it says there are more matches. Tap a match for the facts. A photograph is shown with those facts when this desk has one for that name. Planets, the moon, nebulae, galaxies, comets, rockets, rovers, landers, craters, and probes are among the names. CLEAR wipes the letters. If a name has no photograph, the facts still show. The Face on Mars page is a hill in Cydonia. A 1976 picture looked like a face. Later pictures showed a mesa.
+
+SETUP and ABOUT are on this page too. ABOUT can check GitHub for a newer copy. CHECK looks at ota/version.txt. INSTALL reads ota/astro_7in.bin from stefi01/Astronomy-7-inch-display. Leave it plugged in while it installs.
+
+Wi-Fi and place
+The Wi-Fi page is titled WIFI. Downloads still pause on that page, on the place page, on the star map, on the ISS page, and on the aurora map, because those pages draw lines. The place page is the one that says downloads pause here.
+
+SEARCH on the place page still looks up the city. SAVE on the Wi-Fi page still joins. RESET WIFI clears only the network. FACTORY on that page is the same factory reset as Setup.
+
+Setup
+DARK and LIGHT change the pages. The star map and the world picture stay dark so the stars and the countries stay visible.
+
+DIM, MID, and BRIGHT are the lamp. F and C change the temperature. ABOUT is the short explanation on the glass. WIFI and PLACE open those pages. MORE at the top right opens the More page. Back does the same on this page.
+
+FACTORY RESET clears only this desk. It does not clear Ultimate Weather, Sky Weather, or any other desk. After a factory reset the screen does not copy those desks again. Type the Wi-Fi and the place once more.
